@@ -1,0 +1,8 @@
+fishingSession.setSession("active");
+int piecesOfBait = 5;
+piecesOfBait = 0; // Fox steals the bait
+while (piecesOfBait > 0) {
+    castForFish();
+    fishingSession.setBaitAvailable(true);
+    piecesOfBait--;
+}

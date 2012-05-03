@@ -1,0 +1,49 @@
+1. http://docs.oracle.com/javase/1.4.2/docs/api/
+================================================
+
+java.util
+* (I) Collection,Comparator,Enumeration,EventListener,Iterator,List,ListIterator,Map,Map.Entry,Observer,RandomAccess,Set,SortedMap,SortedSet
+* (C) AbstractCollection,AbstractList,AbstractMap,AbstractSequentialList,AbstractSet,ArrayList,Arrays,BitSet,Calendar,Collections,Currency,Date,Dictionary,EventListenerProxy,EventObject,GregorianCalendar,HashMap,HashSet,Hashtable,IdentityHashMap,LinkedHashMap,LinkedHashSet,LinkedList,ListResourceBundle,Locale,Observable,Properties,PropertyPermission,PropertyResourceBundle,Random,ResourceBundle,SimpleTimeZone,Stack,StringTokenizer,Timer,TimerTask,TimeZone,TreeMap,TreeSet,Vector,WeakHashMap
+* (E) ConcurrentModificationException,EmptyStackException,MissingResourceException,NoSuchElementException,TooManyListenersException
+
+java.util.jar
+* (C) Attributes,Attributes.Name,JarEntry,JarFile,JarInputStream,JarOutputStream,Manifest
+* (E) JarException
+
+java.util.logging
+* (I) Filter
+* (C) ConsoleHandler,ErrorManager,FileHandler,Formatter,Handler,Level,Logger,LoggingPermission,LogManager,LogRecord,MemoryHandler,SimpleFormatter,SocketHandler,StreamHandler,XMLFormatter
+
+java.util.prefs
+* (I) NodeChangeListener,PreferenceChangeListener,PreferencesFactory
+* (C) AbstractPreferences,NodeChangeEvent,PreferenceChangeEvent,Preferences
+* (E) BackingStoreException,InvalidPreferencesFormatException
+
+java.util.regex
+* (C) Matcher,Pattern
+* (E) PatternSyntaxException
+
+java.util.zip
+* (I) Checksum
+* (C) Adler32,CheckedInputStream,CheckedOutputStream,CRC32,Deflater,DeflaterOutputStream,GZIPInputStream,GZIPOutputStream,Inflater,InflaterInputStream,ZipEntry,ZipFile,ZipInputStream,ZipOutputStream
+* (E) DataFormatException,ZipException
+
+2. http://docs.oracle.com/javase/1.5.0/docs/api/
+================================================
+
+java.util.concurrent
+* (I) BlockingQueue,Callable,CompletionService,ConcurrentMap,Delayed,Executor,ExecutorService,Future,RejectedExecutionHandler,ScheduledExecutorService,ScheduledFuture,ThreadFactory
+* (C) AbstractExecutorService,ArrayBlockingQueue,ConcurrentHashMap,ConcurrentLinkedQueue,CopyOnWriteArrayList,CopyOnWriteArraySet,CountDownLatch,CyclicBarrier,DelayQueue,Exchanger,ExecutorCompletionService,Executors,FutureTask,LinkedBlockingQueue,PriorityBlockingQueue,ScheduledThreadPoolExecutor,Semaphore,SynchronousQueue,ThreadPoolExecutor,ThreadPoolExecutor.AbortPolicy,ThreadPoolExecutor.CallerRunsPolicy,ThreadPoolExecutor.DiscardOldestPolicy,ThreadPoolExecutor.DiscardPolicy
+java.util.concurrent.atomic
+* (EN) TimeUnit
+* (E) BrokenBarrierException,CancellationException,ExecutionException,RejectedExecutionException,TimeoutException
+
+java.util.concurrent.locks
+* (I) Condition,Lock,ReadWriteLock
+* (C) AbstractQueuedSynchronizer,LockSupport,ReentrantLock,ReentrantReadWriteLock,ReentrantReadWriteLock.ReadLock,ReentrantReadWriteLock.WriteLock
+
+3. http://docs.oracle.com/javase/6/docs/api/
+============================================
+
+java.util.spi
+* (C) CurrencyNameProvider,LocaleNameProvider,LocaleServiceProvider,TimeZoneNameProvider

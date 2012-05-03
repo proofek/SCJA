@@ -1,0 +1,12 @@
+1. CD (C only)
+2. D
+3. B
+4. AC (and B)
+5. B
+6. ABCD (not D)
+7. D (AC)
+8. BC (C only)
+9. A
+10. B
+11. BC (not B)
+12. D
